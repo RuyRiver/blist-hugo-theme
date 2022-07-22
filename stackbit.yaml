@@ -1,6 +1,12 @@
 stackbitVersion: ~0.5.0
 cmsName: git
 ssgName: custom
+publishDir: exampleSite/public
+buildCommand: cd exampleSite && hugo --gc --baseURL "/" --themesDir ../.. && cd ..
+uploadDir: images
+staticDir: exampleSite/static
+pagesDir: exampleSite/content
+dataDir: exampleSite
 nodeVersion: "16"
 dataDir: content/data
 pagesDir: content/pages
