@@ -15,9 +15,3 @@ contentModels:
     isPage: true
     urlPath: "/{slug}"
     newFilePath: "{slug}.md"
-publishDir: exampleSite/public
-buildCommand: cd exampleSite && hugo --gc --baseURL "/" --themesDir ../.. && cd ..
-uploadDir: images
-staticDir: exampleSite/static
-pagesDir: exampleSite/content
-dataDir: exampleSite
